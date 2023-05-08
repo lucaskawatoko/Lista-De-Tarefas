@@ -1,0 +1,130 @@
+/* CSS da Lista de Tarefas */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #c4def6; /* cor de fundo padrão */
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30%x;
+  background: linear-gradient(to right,
+  #000000 0%, #0b0b0b 5%, #151515 10%, #1f1f1f 15%, #292929 20%,
+  #333333 25%, #3d3d3d 30%, #474747 35%, #515151 40%, #5b5b5b 45%,
+  #666666 50%, #707070 55%, #7a7a7a 60%, #848484 65%, #8e8e8e 70%,
+  #999999 75%, #a3a3a3 80%, #adadad 85%, #b7b7b7 90%, #c1c1c1 95%, #cccccc 100%
+);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+
+form {
+  background-color: #8eb4d9;
+  padding: 20px;
+  margin: 0 auto;
+  width: 60%;
+  max-width: 500px;
+  border-radius: 10px;
+  border: 2px solid #4c6dbd;
+  margin-top: 20px;
+}
+
+form label,
+form input[type="text"],
+form button {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  width: 100%;
+}
+
+form input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 2px solid #4c6dbd;
+  width: 95%;
+}
+
+form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4c6dbd;
+  cursor: pointer;
+}
+
+ul {
+  background-color: #8eb4d9;
+  padding: 20px;
+  margin: 0 auto;
+  width: 60%;
+  max-width: 500px;
+  border-radius: 10px;
+  border: 2px solid #4c6dbd;
+  margin-top: 20px;
+  display: none;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+}
+
+li button {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4c6dbd;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+  body {
+    background-color: #bdd8f4; /* cor de fundo para telas médias */
+  }
+  form,
+  ul {
+    background-color: #91bde0; /* cor de fundo para telas médias */
+  }
+  #conteudo {
+    margin-top: 50px; /* ajusta a margem superior para telas médias */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: #81c1fd; /* cor de fundo para telas pequenas */
+  }
+  form,
+  ul {
+    background-color: #a6c4df; /* cor de fundo para telas pequenas */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: #004A9B;
+  }
+}
