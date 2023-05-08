@@ -2,28 +2,6 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Lista de Tarefas - README</title>
-  <style>
-    h1 {
-      color: #aff9e9;
-      text-align: center;
-      overflow: hidden;
-      white-space: nowrap;
-      margin: 0 auto;
-      animation: typing 1.5s steps(100000, end), blink-caret .1s step-end infinite;
-      margin-bottom:10px
-    }
-    
-    @keyframes typing {
-      from { width: 100% }
-      to { width: 100% }
-    }
-    
-    @keyframes blink-caret {
-      from, to { border-color: transparent }
-      50% { border-color: blue }
-    }
-  </style>
 </head>
 <body>
   <h1>Lista de Tarefas</h1>
